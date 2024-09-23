@@ -1,0 +1,45 @@
+name: gridview_6_pages
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  add_to_cart_animation: ^2.0.4
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.0.0
+  cupertino_icons: ^1.0.8
+  curved_navigation_bar: ^1.0.3
+  firebase_auth: ^5.3.0
+  flutter_rating_bar: ^4.0.1
+  flutterfire_cli: ^1.0.0
+  get: ^4.6.6
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  persistent_shopping_cart: ^0.0.7
+  shared_preferences: ^2.3.2
+  sign_in_button: ^3.2.0
+  smooth_page_indicator: ^1.2.0+3
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - Asset/Image/
+    - Asset/Logo/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: Asset/Font/OpenSans-VariableFont_wdth,wght.ttf
+    - family: Poppins
+      fonts:
+        - asset: Asset/Font/Poppins-Black.ttf
